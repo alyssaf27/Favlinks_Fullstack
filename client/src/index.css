@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+:root {
+  --green-dark:   #7aad7a;  
+  --green-mid:    #a8d5a2;  
+  --green-light:  #d4edda;   
+  --cream:        #f5f5e8;   
+  --yellow-soft:  #f0eac0;   
+  --text-dark:    #3b4a3b;   
+  --text-mid:     #5c7a5c;   
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  background-color: var(--cream);
+  color: var(--text-dark);
+  font-size: 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: var(--text-dark);
+  font-family: 'Nunito', sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: var(--green-light);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background-color: var(--green-mid);
+  color: var(--text-dark);
+  padding: 12px;
+}
+
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--green-mid);
+  color: var(--text-mid);
+}
+
+input {
+  border: 1px solid var(--green-dark);
+  border-radius: 6px;
+  padding: 8px 12px;
+  background-color: var(--cream);
+  color: var(--text-dark);
+  font-family: 'Nunito', sans-serif;
+  margin: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--green-dark);
+  background-color: var(--green-light);
+}
+
+button {
+  background-color: var(--green-mid);
+  border: 1px solid var(--green-dark);
+  border-radius: 6px;
+  padding: 8px 16px;
+  color: var(--text-dark);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 4px;
+}
+
+button:hover {
+  background-color: var(--green-dark);
+  color: white;
+}
